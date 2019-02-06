@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: besthotels
+  profiles:
+    active: dev
+server:
+  port: 8082
+  servlet:
+    contextPath: /best
